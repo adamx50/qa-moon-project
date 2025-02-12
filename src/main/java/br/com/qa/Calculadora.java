@@ -20,7 +20,7 @@ public class Calculadora {
     // Método para dividir dois números
     public int dividir(int a, int b) {
         if (b == 0) {
-            throw new IllegalArgumentException("Não é possível dividir por zero!a");
+            throw new IllegalArgumentException("Não é possível dividir por zero!");
         }
         return a / b;
     }
